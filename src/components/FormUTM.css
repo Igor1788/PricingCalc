@@ -43,7 +43,11 @@ button {
 }
 
 .result-container {
-    margin-top: 20px;
+    width: 100%;
+    background: white;
+    word-wrap: break-word;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 h3, h4 {

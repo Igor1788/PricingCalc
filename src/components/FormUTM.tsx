@@ -63,15 +63,15 @@ const FormUtm = () => {
         <button onClick={handleClearFields}>Limpar campos</button>
       </div>
 
-      <div className='result-container'>
-        <p 
+
+        <p className='result-container'
           onClick={handleCopyLink}
           style={{cursor: "pointer"}}
         >
           Link gerado: {linkGerado}
         </p>
         {linkCopiado && <p style={{color: "green"}}>Link copiado com sucesso!</p>} 
-      </div>
+
     </div>
   );
 };

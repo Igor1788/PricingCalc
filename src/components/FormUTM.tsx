@@ -11,7 +11,7 @@ const FormUtm = () => {
   const [linkCopiado, setLinkCopiado] = useState(false);
 
   const handleGenerateLink = () => {
-    let base = cupom ? `${url}?voucher=${cupom}&` : `${url}?`; 
+    let base = cupom ? `https://${url}?voucher=${cupom}&` : `${url}?`; 
     base += `utm_source=${origem}&utm_medium=${midia}&utm_campaign=${campanha}`;
     setLinkGerado(base);
     setLinkCopiado(false);
